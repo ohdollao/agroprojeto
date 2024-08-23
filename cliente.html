@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/clientes.css">
+    <title>Clientes</title> 
+</head>
+<body>
+   <div class="main-clientes">
+    <div class="left-clientes">
+        <h1>Entre em contato <br> com a Lunar-Tec</h1>
+        <img src="./src/gifs/contactgif.svg" class="left-clientes-image" alt="Contact">
+    </div> 
+    <div class="right-clientes">
+        <div class="card-clientes">
+            <h1>Contate-nos</h1>
+            <form action="contato.php" method="post">
+                <div class="textfield">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="textfield">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="textfield">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn-clientes">Enviar</button>
+            </form>
+        </div>
+    </div> 
+   </div> 
+</body>
+</html>
